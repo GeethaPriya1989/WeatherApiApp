@@ -1,0 +1,14 @@
+<div class="header-container">
+  <mat-toolbar color="blue" class="toolbar">
+    <span class="title">Weather Application</span>
+ 
+
+  <form (ngSubmit)="onSubmit()">
+
+        <input type="text" name="usenname" class="form-control" placeholder="City Name" required [(ngModel)]="searchTerm" >
+  
+        <button class="btn btn-secondary p-2" type="submit"><mat-icon>search</mat-icon></button>
+
+</form>
+  </mat-toolbar>
+</div>
